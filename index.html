@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#FF0D00" />
 <title>B'my — Bánh mì Vietnamita, hecho en Madrid</title>
-<meta name="description" content="B'my abre el 1 de mayo de 2026 en Moncloa, Madrid. Bánh mì y café vietnamita, hecho con recetas tradicionales y servido en el corazón de Madrid." />
+<meta name="description" content="B'my abre el 15 de mayo de 2026 en Moncloa, Madrid. Bánh mì y café vietnamita, hecho con recetas tradicionales y servido en el corazón de Madrid." />
 
 <!-- Open Graph -->
 <meta property="og:title" content="B'my — Bánh mì Vietnamita, hecho en Madrid" />
-<meta property="og:description" content="Apertura 1 de mayo de 2026. Moncloa, Madrid." />
+<meta property="og:description" content="Apertura 15 de mayo de 2026. Moncloa, Madrid." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="assets/illu-banhmi.png" />
 
-<!-- Google Analytics 4 — TODO: thay G-XXXXXXXXXX bằng ID thật -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<!-- Google Analytics 4 — BMy Madrid Website (stream 14362218642) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F2EVGFPTL9"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'G-F2EVGFPTL9');
   // Google Ads — TODO: thay AW-XXXXXXXXXX bằng Conversion ID thật
   // gtag('config', 'AW-XXXXXXXXXX');
 </script>
@@ -464,6 +464,13 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 }
 .hero-lead-form .btn-lead:hover{transform:translateY(-2px);background:var(--red-dark);box-shadow:0 16px 40px -8px rgba(255,13,0,.4)}
 .hero-lead-form .form-note{font-size:12px;opacity:.5;text-align:center;margin-top:12px}
+.lead-consent{margin:8px 0 14px}
+.consent-label{display:flex;gap:10px;align-items:flex-start;font-size:12px;line-height:1.4;color:var(--brown);cursor:pointer;font-family:var(--font-body);letter-spacing:0;text-transform:none}
+.consent-label input[type="checkbox"]{margin-top:2px;width:16px;height:16px;flex-shrink:0;accent-color:var(--red);cursor:pointer}
+.consent-label a{color:var(--red);text-decoration:underline}
+.consent-label a:hover{color:var(--red-dark)}
+.lead-consent.error .consent-label{color:var(--red)}
+.lead-consent.error input[type="checkbox"]{outline:2px solid var(--red);outline-offset:2px}
 .hero-lead-form .social-proof-mini{
   display:flex;align-items:center;gap:8px;margin-top:14px;
   font-size:13px;color:var(--deep-blue);font-weight:500;
@@ -590,7 +597,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
   <div class="container">
     <div class="hero-grid">
       <div class="hero-text fade-up in">
-        <span class="eyebrow" data-i18n="hero.eyebrow">Apertura · 1 de mayo · 2026 · Madrid</span>
+        <span class="eyebrow" data-i18n="hero.eyebrow">Apertura · 15 de mayo · 2026 · Madrid</span>
         <h1>
           <span data-i18n="hero.h1a">Bánh mì</span>
           <span class="accent" data-i18n="hero.h1b">vietnamita</span><br>
@@ -623,11 +630,17 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
             </div>
             <div class="lead-row">
               <label for="leadPhone" data-i18n="lead.phone">WhatsApp / Teléfono</label>
-              <input id="leadPhone" name="phone" type="tel" placeholder="+34 612 345 678" required />
+              <input id="leadPhone" name="phone" type="tel" placeholder="+34 604 110 755" required />
             </div>
             <div class="lead-row">
               <label for="leadEmail" data-i18n="lead.email">Email</label>
               <input id="leadEmail" name="email" type="email" placeholder="maria@ejemplo.com" required />
+            </div>
+            <div class="lead-row lead-consent">
+              <label class="consent-label">
+                <input id="leadConsent" name="consent" type="checkbox" required />
+                <span data-i18n="lead.consent">Acepto recibir mi voucher y comunicaciones de B'my por WhatsApp y email. Puedo darme de baja en cualquier momento. <a href="#privacy" target="_blank">Política de privacidad</a>.</span>
+              </label>
             </div>
             <button type="submit" class="btn-lead"><span data-i18n="lead.submit">Quiero mi bánh mì gratis</span> →</button>
             <div class="form-note" data-i18n="lead.note">Recibirás tu voucher por WhatsApp. Sin spam, lo prometemos.</div>
@@ -650,8 +663,8 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 <!-- ============ MARQUEE ============ -->
 <div class="marquee">
   <div class="marquee-inner">
-    <span>Bánh mì <span class="dot"></span> Cà phê <span class="dot"></span> Hecho en Madrid <span class="dot"></span> Made in Madrid <span class="dot"></span> Làm tại Madrid <span class="dot"></span> Apertura 01.05.2026 <span class="dot"></span></span>
-    <span>Bánh mì <span class="dot"></span> Cà phê <span class="dot"></span> Hecho en Madrid <span class="dot"></span> Made in Madrid <span class="dot"></span> Làm tại Madrid <span class="dot"></span> Apertura 01.05.2026 <span class="dot"></span></span>
+    <span>Bánh mì <span class="dot"></span> Cà phê <span class="dot"></span> Hecho en Madrid <span class="dot"></span> Made in Madrid <span class="dot"></span> Làm tại Madrid <span class="dot"></span> Apertura 15.05.2026 <span class="dot"></span></span>
+    <span>Bánh mì <span class="dot"></span> Cà phê <span class="dot"></span> Hecho en Madrid <span class="dot"></span> Made in Madrid <span class="dot"></span> Làm tại Madrid <span class="dot"></span> Apertura 15.05.2026 <span class="dot"></span></span>
   </div>
 </div>
 
@@ -768,7 +781,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
       </div>
 
     </div>
-    <div class="menu-foot" data-i18n="menu.foot">— Carta provisional. Precios y platos definitivos a partir del 1 de mayo —</div>
+    <div class="menu-foot" data-i18n="menu.foot">— Carta provisional. Precios y platos definitivos a partir del 15 de mayo —</div>
     <div style="text-align:center;margin-top:20px">
       <a href="https://www.bmy.com.es/menu.html" target="_blank" style="color:var(--blue);font-weight:700;font-size:1rem;text-decoration:underline;text-underline-offset:4px" data-es="Ver carta completa en bmy.com.es →" data-en="See full menu at bmy.com.es →" data-vi="Xem thực đơn đầy đủ tại bmy.com.es →">Ver carta completa en bmy.com.es →</a>
     </div>
@@ -811,7 +824,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
           <a href="https://www.tiktok.com/@bmy.madrid" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.3a4.6 4.6 0 01-3.7-3.6h-3v12.6a2.6 2.6 0 11-2.6-2.6c.3 0 .5 0 .7.1V9.7a5.6 5.6 0 105 5.5V9.5a7.5 7.5 0 003.6 1z"/></svg></a>
           <a href="https://www.facebook.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.3l-.5 3.5h-2.8v8.4A12 12 0 0024 12z"/></svg></a>
           <a href="https://www.youtube.com/@bmy.madrid" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31.5 31.5 0 000 12a31.5 31.5 0 00.5 5.8 3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1A31.5 31.5 0 0024 12a31.5 31.5 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a>
-          <a href="https://wa.me/34612345678" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 00-10 18.6L0 24l5.6-1.9A12 12 0 1012 0zm0 22a10 10 0 01-5.1-1.4l-.4-.2-3.3 1.1 1.1-3.2-.2-.4A10 10 0 1112 22zm5.7-7.5c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-.9 1.2-.3.2-.6 0a8 8 0 01-2.4-1.5 9 9 0 01-1.7-2c-.2-.3 0-.5.1-.6l.4-.5a2 2 0 00.3-.5.5.5 0 000-.5l-1-2.4c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 00-.9.4 3.6 3.6 0 00-1.1 2.7 6.3 6.3 0 001.3 3.4 14.3 14.3 0 005.5 4.8c3 1.2 3.6 1 4.2.9a3.3 3.3 0 002.2-1.5 2.7 2.7 0 00.2-1.5c-.1-.1-.3-.2-.6-.3z"/></svg></a>
+          <a href="https://wa.me/34604110755" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 00-10 18.6L0 24l5.6-1.9A12 12 0 1012 0zm0 22a10 10 0 01-5.1-1.4l-.4-.2-3.3 1.1 1.1-3.2-.2-.4A10 10 0 1112 22zm5.7-7.5c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-.9 1.2-.3.2-.6 0a8 8 0 01-2.4-1.5 9 9 0 01-1.7-2c-.2-.3 0-.5.1-.6l.4-.5a2 2 0 00.3-.5.5.5 0 000-.5l-1-2.4c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 00-.9.4 3.6 3.6 0 00-1.1 2.7 6.3 6.3 0 001.3 3.4 14.3 14.3 0 005.5 4.8c3 1.2 3.6 1 4.2.9a3.3 3.3 0 002.2-1.5 2.7 2.7 0 00.2-1.5c-.1-.1-.3-.2-.6-.3z"/></svg></a>
         </div>
       </div>
 
@@ -825,11 +838,17 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
           </div>
           <div class="form-row">
             <label for="rPhone" data-i18n="lead.phone">WhatsApp / Teléfono</label>
-            <input id="rPhone" name="phone" type="tel" required />
+            <input id="rPhone" name="phone" type="tel" placeholder="+34 604 110 755" required />
           </div>
           <div class="form-row">
             <label for="rEmail" data-i18n="lead.email">Email</label>
             <input id="rEmail" name="email" type="email" required />
+          </div>
+          <div class="form-row lead-consent">
+            <label class="consent-label">
+              <input id="rConsent" name="consent" type="checkbox" required />
+              <span data-i18n="lead.consent">Acepto recibir mi voucher y comunicaciones de B'my por WhatsApp y email. Puedo darme de baja en cualquier momento. <a href="#privacy" target="_blank">Política de privacidad</a>.</span>
+            </label>
           </div>
           <button type="submit" class="btn"><span data-i18n="lead.submit">Quiero mi bánh mì gratis</span><span class="arrow">→</span></button>
         </form>
@@ -892,7 +911,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 const I18N = {
   es: {
     "nav.story":"La historia","nav.menu":"Carta","nav.visit":"Visítanos","nav.contact":"Contacto","nav.cta":"Bánh mì gratis",
-    "hero.eyebrow":"Apertura · 1 de mayo · 2026 · Madrid",
+    "hero.eyebrow":"Apertura · 15 de mayo · 2026 · Madrid",
     "hero.h1a":"Bánh mì","hero.h1b":"vietnamita","hero.h1c":"hecho en Madrid.",
     "hero.lead":"Recetas vietnamitas de verdad, traídas por dos amigos a Moncloa. Pan crujiente, café intenso y un poquito de Vietnam en cada mañana de Madrid.",
     "hero.cta1":"Ver la carta","hero.cta2":"Nuestra historia",
@@ -935,7 +954,7 @@ const I18N = {
     "menu.drinks.6":"Naranja &amp; piña",
     "menu.drinks.7":"Yogur con avena",
     "menu.drinks.8":"Yogur con coco y granola",
-    "menu.foot":"— Carta provisional. Precios y platos definitivos a partir del 1 de mayo —",
+    "menu.foot":"— Carta provisional. Precios y platos definitivos a partir del 15 de mayo —",
     "visit.eyebrow":"Visítanos","visit.h2":"Te esperamos en Moncloa.",
     "visit.p":"A dos minutos del intercambiador. Ven a desayunar, coger un bocadillo para llevar o probar tu primer cà phê sữa.",
     "visit.addrL":"Dirección","visit.hoursL":"Horario","visit.emailL":"Email",
@@ -956,6 +975,7 @@ const I18N = {
     "lead.name":"Tu nombre","lead.phone":"WhatsApp / Teléfono","lead.email":"Email",
     "lead.submit":"Quiero mi bánh mì gratis",
     "lead.note":"Recibirás tu voucher por WhatsApp. Sin spam, lo prometemos.",
+    "lead.consent":"Acepto recibir mi voucher y comunicaciones de B'my por WhatsApp y email. Puedo darme de baja en cualquier momento. <a href=\"#privacy\" target=\"_blank\">Política de privacidad</a>.",
     "lead.proof":"Ya se han apuntado <strong id=\"signupCount\">500+</strong> personas",
     "urgency.bar":"🔥 <strong>Oferta de apertura:</strong> Regístrate ahora y llévate un bánh mì GRATIS el día de apertura",
     "cta.h2":"¿Quieres probar antes que nadie?",
@@ -963,7 +983,7 @@ const I18N = {
     "cta.btn":"Conseguir mi bánh mì gratis",
     "sticky.text":"Bánh mì gratis","sticky.sub":"Plazas limitadas · Regístrate ya","sticky.btn":"Registrarme",
     "modal.h3":"¡Hecho!","modal.script":"Tu bánh mì te espera",
-    "modal.p":"Te enviaremos tu voucher por WhatsApp antes del 1 de mayo. Guarda este código por si acaso.",
+    "modal.p":"Te enviaremos tu voucher por WhatsApp antes del 15 de mayo. Guarda este código por si acaso.",
     "modal.close":"¡Genial, nos vemos!",
     "values.eyebrow":"Nuestros valores","values.h2":"Lo que nos define.","values.p":"Sabor real, esencia de Vietnam",
     "values.auth.t":"Authenticity","values.auth.s":"Nguyên bản","values.auth.p":"Recetas transmitidas de generación en generación, sin atajos ni sustitutos. Cada ingrediente tiene historia.",
@@ -1041,6 +1061,7 @@ const I18N = {
     "lead.name":"Your name","lead.phone":"WhatsApp / Phone","lead.email":"Email",
     "lead.submit":"I want my free bánh mì",
     "lead.note":"You'll receive your voucher via WhatsApp. No spam, we promise.",
+    "lead.consent":"I agree to receive my voucher and B'my communications via WhatsApp and email. I can unsubscribe at any time. <a href=\"#privacy\" target=\"_blank\">Privacy policy</a>.",
     "lead.proof":"Already <strong id=\"signupCount\">500+</strong> people signed up",
     "urgency.bar":"🔥 <strong>Opening offer:</strong> Sign up now and get a FREE bánh mì on opening day",
     "cta.h2":"Want to try it before anyone else?",
@@ -1105,7 +1126,7 @@ const I18N = {
     "menu.drinks.6":"Cam &amp; thơm",
     "menu.drinks.7":"Sữa chua yến mạch",
     "menu.drinks.8":"Sữa chua cốt dừa &amp; granola",
-    "menu.foot":"— Thực đơn tạm thời. Giá &amp; món chính thức từ ngày 1/5 —",
+    "menu.foot":"— Thực đơn tạm thời. Giá &amp; món chính thức từ ngày 15/5 —",
     "visit.eyebrow":"Ghé thăm","visit.h2":"Hẹn bạn ở Moncloa.",
     "visit.p":"Cách bến xe Moncloa hai phút đi bộ. Ghé ăn sáng, mua bánh mỳ mang đi, hoặc thử ly cà phê sữa đầu tiên của bạn.",
     "visit.addrL":"Địa chỉ","visit.hoursL":"Giờ mở cửa","visit.emailL":"Email",
@@ -1126,6 +1147,7 @@ const I18N = {
     "lead.name":"Tên của bạn","lead.phone":"WhatsApp / Số điện thoại","lead.email":"Email",
     "lead.submit":"Nhận bánh mì miễn phí",
     "lead.note":"Bạn sẽ nhận voucher qua WhatsApp. Không spam, tụi mình hứa.",
+    "lead.consent":"Tôi đồng ý nhận voucher và tin từ B'my qua WhatsApp và email. Có thể huỷ đăng ký bất cứ lúc nào. <a href=\"#privacy\" target=\"_blank\">Chính sách bảo mật</a>.",
     "lead.proof":"Đã có <strong id=\"signupCount\">500+</strong> người đăng ký",
     "urgency.bar":"🔥 <strong>Ưu đãi khai trương:</strong> Đăng ký ngay, nhận bánh mì MIỄN PHÍ ngày khai trương",
     "cta.h2":"Muốn thử trước tất cả?",
@@ -1133,7 +1155,7 @@ const I18N = {
     "cta.btn":"Nhận bánh mì miễn phí",
     "sticky.text":"Bánh mì miễn phí","sticky.sub":"Số lượng có hạn · Đăng ký ngay","sticky.btn":"Đăng ký",
     "modal.h3":"Xong rồi!","modal.script":"Bánh mì đang chờ bạn",
-    "modal.p":"Tụi mình sẽ gửi voucher qua WhatsApp trước ngày 1/5. Lưu mã này phòng khi cần nhé.",
+    "modal.p":"Tụi mình sẽ gửi voucher qua WhatsApp trước ngày 15/5. Lưu mã này phòng khi cần nhé.",
     "modal.close":"Tuyệt vời, hẹn gặp!",
     "values.eyebrow":"Giá trị cốt lõi","values.h2":"Điều làm nên B'My.","values.p":"Hương vị thật, tinh hoa Việt Nam",
     "values.auth.t":"Authenticity","values.auth.s":"Nguyên bản","values.auth.p":"Công thức truyền đời, không tắt đường, không thay thế. Mỗi nguyên liệu đều mang theo câu chuyện.",
@@ -1179,7 +1201,7 @@ setLang(initialLang);
 
 /* ============ COUNTDOWN ============ */
 // Opening: 1 May 2026, 11:00 Madrid (CEST = UTC+2 in May)
-const TARGET = new Date('2026-05-01T11:00:00+02:00').getTime();
+const TARGET = new Date('2026-05-15T11:00:00+02:00').getTime();
 function tick(){
   const now = Date.now();
   let diff = Math.max(0, TARGET - now);
@@ -1216,7 +1238,7 @@ document.querySelectorAll('.fade-up').forEach(el=>io.observe(el));
 setTimeout(()=>{ document.querySelectorAll('.fade-up:not(.in)').forEach(el=>el.classList.add('in')); }, 1200);
 
 /* ============ LEAD FORM HANDLER ============ */
-const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxPLACEHOLDER/exec'; // TODO: replace with real Apps Script URL
+const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxmXvwfwtvl3OfXULnsdRZCMcYWY9nfBzaDD7AHNL35dlbfGj8S6Ar5eM1VRxX2KC-V/exec'; // Apps Script Web App v1 — B'My Lead Capture
 function handleLeadSubmit(e){
   e.preventDefault();
   const form = e.target;
@@ -1224,12 +1246,24 @@ function handleLeadSubmit(e){
   const name = form.querySelector('[name=name]').value.trim();
   const phone = form.querySelector('[name=phone]').value.trim();
   const email = form.querySelector('[name=email]').value.trim();
+  const consentEl = form.querySelector('[name=consent]');
   if (!name || !phone || !email){ form.querySelector('[name=name]').focus(); return; }
+  if (consentEl && !consentEl.checked){
+    consentEl.focus();
+    consentEl.closest('.lead-consent')?.classList.add('error');
+    return;
+  }
   // Disable button while sending
   btn.disabled = true;
   btn.style.opacity = '0.6';
-  // Send to Google Sheets
-  const data = new URLSearchParams({name, phone, email, date: new Date().toISOString(), source: window.location.href});
+  // Send to Google Sheets (consent logged for GDPR audit trail)
+  const data = new URLSearchParams({
+    name, phone, email,
+    consent: consentEl?.checked ? 'yes' : 'no',
+    consent_ts: new Date().toISOString(),
+    date: new Date().toISOString(),
+    source: window.location.href
+  });
   fetch(GOOGLE_SHEET_URL, {method:'POST', body: data})
     .then(r => r.ok ? r : Promise.reject(r))
     .then(()=>{
@@ -1299,7 +1333,7 @@ if (!contactAlias){
     <h3 data-i18n="modal.h3">¡Hecho!</h3>
     <span class="modal-script" data-i18n="modal.script">Tu bánh mì te espera</span>
     <div class="voucher-code">BMY2026</div>
-    <p data-i18n="modal.p">Te enviaremos tu voucher por WhatsApp antes del 1 de mayo. Guarda este código por si acaso.</p>
+    <p data-i18n="modal.p">Te enviaremos tu voucher por WhatsApp antes del 15 de mayo. Guarda este código por si acaso.</p>
     <button class="btn-close-modal" id="closeModal" data-i18n="modal.close">¡Genial, nos vemos!</button>
   </div>
 </div>

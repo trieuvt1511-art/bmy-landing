@@ -1,0 +1,8 @@
+.vercel
+.env*.local
+node_modules/
+.fuse_hidden*
+*.backup
+*.bak
+XXQK4yrG
+.DS_Store
