@@ -7,11 +7,131 @@
 <title>B'my — Bánh mì Vietnamita, hecho en Madrid</title>
 <meta name="description" content="B'my abre el 15 de mayo de 2026 en Moncloa, Madrid. Bánh mì y café vietnamita, hecho con recetas tradicionales y servido en el corazón de Madrid." />
 
+<!-- Canonical + hreflang (SEO đa ngôn ngữ) -->
+<link rel="canonical" href="https://www.bmy.life/" />
+<link rel="alternate" hreflang="es-ES" href="https://www.bmy.life/" />
+<link rel="alternate" hreflang="en" href="https://www.bmy.life/?lang=en" />
+<link rel="alternate" hreflang="vi" href="https://www.bmy.life/?lang=vi" />
+<link rel="alternate" hreflang="x-default" href="https://www.bmy.life/" />
+
 <!-- Open Graph -->
 <meta property="og:title" content="B'my — Bánh mì Vietnamita, hecho en Madrid" />
-<meta property="og:description" content="Apertura 15 de mayo de 2026. Moncloa, Madrid." />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="assets/illu-banhmi.png" />
+<meta property="og:description" content="Apertura 15 de mayo de 2026. Moncloa, Madrid. Bánh mì artesano y café vietnamita 100% robusta." />
+<meta property="og:type" content="restaurant.restaurant" />
+<meta property="og:url" content="https://www.bmy.life/" />
+<meta property="og:site_name" content="B'my" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale:alternate" content="vi_VN" />
+<meta property="og:image" content="https://www.bmy.life/assets/photos/banhmi-hero.jpg" />
+<meta property="og:image:secure_url" content="https://www.bmy.life/assets/photos/banhmi-hero.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Bánh mì vietnamita recién hecho en B'my Madrid" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="B'my — Bánh mì Vietnamita, hecho en Madrid" />
+<meta name="twitter:description" content="Apertura 15 de mayo de 2026. Moncloa, Madrid. Bánh mì artesano y café vietnamita 100% robusta." />
+<meta name="twitter:image" content="https://www.bmy.life/assets/photos/banhmi-hero.jpg" />
+<meta name="twitter:image:alt" content="Bánh mì vietnamita recién hecho en B'my Madrid" />
+
+<!-- JSON-LD: Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://www.bmy.life/#restaurant",
+  "name": "B'my",
+  "alternateName": "B'my Madrid",
+  "description": "Bánh mì vietnamita artesano y café 100% robusta en Moncloa, Madrid.",
+  "url": "https://www.bmy.life/",
+  "logo": "https://www.bmy.life/assets/logo-red.svg",
+  "image": [
+    "https://www.bmy.life/assets/photos/banhmi-hero.jpg",
+    "https://www.bmy.life/assets/photos/banhmi-closeup.jpg",
+    "https://www.bmy.life/assets/photos/bmy-combo.jpg"
+  ],
+  "servesCuisine": ["Vietnamese", "Vietnamita", "Café"],
+  "priceRange": "€€",
+  "telephone": "+34 604 110 755",
+  "email": "hola@bmy.es",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C. de Fernández de los Ríos, 106",
+    "addressLocality": "Madrid",
+    "addressRegion": "Comunidad de Madrid",
+    "postalCode": "28015",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.4370,
+    "longitude": -3.7137
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:30",
+      "closes": "21:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "22:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/bmy.madrid",
+    "https://www.facebook.com/bmy.madrid",
+    "https://www.tiktok.com/@bmy.madrid",
+    "https://www.youtube.com/@bmy.madrid"
+  ]
+}
+</script>
+
+<!-- JSON-LD: Event (Grand Opening) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Apertura oficial de B'my Madrid",
+  "description": "Apertura oficial de B'my — bánh mì vietnamita y café en Moncloa. Los primeros 100 clientes registrados reciben un bánh mì gratis.",
+  "startDate": "2026-05-15T11:00:00+02:00",
+  "endDate": "2026-05-15T22:00:00+02:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "B'my Madrid",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C/ Preguntoiro 29",
+      "addressLocality": "Madrid",
+      "postalCode": "28008",
+      "addressCountry": "ES"
+    }
+  },
+  "image": "https://www.bmy.life/assets/photos/banhmi-hero.jpg",
+  "organizer": {
+    "@type": "Organization",
+    "name": "B'my",
+    "url": "https://www.bmy.life/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Bánh mì GRATIS · primeros 100 registrados",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/LimitedAvailability",
+    "url": "https://www.bmy.life/#voucher",
+    "validFrom": "2026-04-01T00:00:00+02:00"
+  }
+}
+</script>
 
 <!-- Google Analytics 4 — BMy Madrid Website (stream 14362218642) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2EVGFPTL9"></script>
@@ -24,10 +144,68 @@
   // gtag('config', 'AW-XXXXXXXXXX');
 </script>
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<!-- Meta Pixel (Facebook / Instagram Ads) — TODO: thay YOUR_PIXEL_ID bằng Pixel ID thật -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'YOUR_PIXEL_ID');
+  fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel (noscript fallback đặt sau <body>) -->
+
+<!-- Fonts — Bộ nhận diện B'My V1 (self-hosted, không còn phụ thuộc Google Fonts) -->
+<link rel="preload" as="font" type="font/ttf" href="assets/fonts/Oswald-Var.ttf" crossorigin>
+<link rel="preload" as="font" type="font/ttf" href="assets/fonts/Afacad-Var.ttf" crossorigin>
+<style>
+  /* Oswald — variable font 400..700 (display/headlines) */
+  @font-face{
+    font-family:'Oswald';
+    src:url('assets/fonts/Oswald-Var.ttf') format('truetype-variations'),
+        url('assets/fonts/Oswald-Var.ttf') format('truetype');
+    font-weight:200 700;
+    font-style:normal;
+    font-display:swap;
+  }
+  /* Afacad — variable font 400..700 (body) */
+  @font-face{
+    font-family:'Afacad';
+    src:url('assets/fonts/Afacad-Var.ttf') format('truetype-variations'),
+        url('assets/fonts/Afacad-Var.ttf') format('truetype');
+    font-weight:400 700;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'Afacad';
+    src:url('assets/fonts/Afacad-Italic-Var.ttf') format('truetype-variations'),
+        url('assets/fonts/Afacad-Italic-Var.ttf') format('truetype');
+    font-weight:400 700;
+    font-style:italic;
+    font-display:swap;
+  }
+  /* Brush Script MT — script accent (ES/EN); chữ Việt sẽ tự fallback sang Afacad italic
+     vì Brush Script MT không có glyph cho ư/ệ/đ/ả/ă... (đã verify bằng cmap) */
+  @font-face{
+    font-family:'Brush Script MT';
+    src:url('assets/fonts/BrushScriptMT.ttf') format('truetype');
+    font-weight:400;
+    font-style:italic;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'Brush Script Std';
+    src:url('assets/fonts/BrushScriptStd.otf') format('opentype');
+    font-weight:400;
+    font-style:italic;
+    font-display:swap;
+  }
+</style>
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="assets/logo-red.svg">
@@ -59,7 +237,8 @@ a{color:inherit;text-decoration:none}
 
   --font-display:'Oswald', 'Arial Narrow', sans-serif;
   --font-body:'Afacad','Helvetica Neue',sans-serif;
-  --font-script:'Caveat','Brush Script MT',cursive;
+  /* Script: Brush Script MT (brand). Với chữ Việt (ư/ệ/đ/ả...), browser tự fallback sang Afacad italic vì BSM thiếu glyph. */
+  --font-script:'Brush Script MT','Brush Script Std','Afacad',cursive;
 
   --container:1280px;
   --radius:18px;
@@ -181,6 +360,23 @@ section{padding:120px 0;position:relative}
 .hero-mascot img{width:100%;height:auto}
 @keyframes bob{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-12px) rotate(2deg)}}
 
+/* Hero photo polaroid — ảnh bánh mì thật nổi bên cạnh form */
+.hero-photo{
+  position:absolute;width:200px;z-index:4;
+  top:-70px;right:-30px;
+  background:#fff;padding:10px 10px 42px;
+  border-radius:6px;
+  box-shadow:0 18px 40px -14px rgba(83,19,19,.45), 0 2px 0 rgba(0,0,0,.05);
+  transform:rotate(5deg);
+  transition:transform .4s var(--transition);
+}
+.hero-photo:hover{transform:rotate(0deg) scale(1.04)}
+.hero-photo img{width:100%;height:180px;object-fit:cover;border-radius:3px;display:block}
+.hero-photo .cap{
+  font-family:var(--font-script);color:var(--deep-blue);
+  font-size:18px;text-align:center;margin-top:8px;line-height:1;
+}
+
 @media (max-width:980px){
   .hero{padding:130px 0 80px}
   .hero-grid{grid-template-columns:1fr;gap:40px;text-align:center}
@@ -189,6 +385,9 @@ section{padding:120px 0;position:relative}
   .hero-visual{min-height:auto}
   .hero-lead-form{max-width:100%}
   .hero-mascot{width:100px;left:-10px;bottom:-30px}
+  .hero-photo{width:140px;top:-50px;right:10px;padding:8px 8px 32px}
+  .hero-photo img{height:130px}
+  .hero-photo .cap{font-size:15px}
 }
 
 /* ============ COUNTDOWN ============ */
@@ -391,6 +590,37 @@ section{padding:120px 0;position:relative}
 .map-wrap{position:relative;height:420px;width:100%;overflow:hidden}
 .map-wrap iframe{width:100%;height:100%;border:0;filter:saturate(1.05) contrast(.96)}
 
+/* ============ INSTAGRAM FEED ============ */
+.ig-section{padding:100px 0;background:var(--cream)}
+.ig-head{text-align:center;max-width:640px;margin:0 auto 48px}
+.ig-head h2{margin:14px 0 12px}
+.ig-head p{margin:0 auto 24px;opacity:.75}
+.ig-cta{background:var(--deep-blue);color:var(--cream)}
+.ig-cta:hover{background:var(--red)}
+.ig-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.ig-cell{position:relative;aspect-ratio:1/1;border-radius:8px;overflow:hidden;display:block;background:var(--cream-dark)}
+.ig-cell img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--transition)}
+.ig-cell:hover img{transform:scale(1.08)}
+.ig-cell .ig-icon{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(.8);
+  font-size:28px;opacity:0;transition:opacity .3s var(--transition), transform .3s var(--transition);
+  pointer-events:none;
+}
+.ig-cell::after{
+  content:"";position:absolute;inset:0;background:rgba(26,58,110,.4);
+  opacity:0;transition:opacity .3s var(--transition);
+}
+.ig-cell:hover::after{opacity:1}
+.ig-cell:hover .ig-icon{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.ig-foot{text-align:center;margin-top:28px;font-family:var(--font-script);color:var(--red);font-size:22px}
+@media (max-width:980px){
+  .ig-section{padding:70px 0}
+  .ig-grid{grid-template-columns:repeat(3,1fr);gap:6px}
+}
+@media (max-width:560px){
+  .ig-grid{grid-template-columns:repeat(2,1fr)}
+}
+
 /* ============ FOOTER ============ */
 footer{background:var(--deep-blue);color:var(--cream);padding:80px 0 30px;border-top:6px solid var(--red)}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px;margin-bottom:60px}
@@ -441,6 +671,9 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 .hero-lead-form h3{font-size:clamp(20px,2.5vw,26px);color:var(--deep-blue);margin-bottom:6px;text-transform:none;letter-spacing:0}
 .hero-lead-form .form-sub{font-family:var(--font-script);color:var(--red);font-size:22px;margin-bottom:20px}
 .hero-lead-form .lead-row{margin-bottom:14px}
+/* A/B test: 2-field variant ẩn email row */
+.hero-lead-form form[data-variant="2field"] .row-email{display:none}
+.hero-lead-form form[data-variant="3field"] .row-email{display:block}
 .hero-lead-form .lead-row label{
   display:block;font-family:var(--font-display);font-size:11px;text-transform:uppercase;
   letter-spacing:.12em;color:var(--deep-blue);opacity:.6;margin-bottom:4px;
@@ -559,6 +792,8 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 </head>
 
 <body>
+<!-- Meta Pixel noscript fallback -->
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&amp;ev=PageView&amp;noscript=1" alt="" /></noscript>
 
 <!-- ============ URGENCY BAR ============ -->
 <div class="urgency-bar" data-i18n="urgency.bar">🔥 <strong>Oferta de apertura:</strong> Regístrate ahora y llévate un bánh mì GRATIS el día de apertura</div>
@@ -619,11 +854,15 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
         </div>
       </div>
       <div class="hero-visual fade-up in delay-2">
+        <div class="hero-photo" aria-hidden="true">
+          <img src="assets/photos/banhmi-hero.jpg" alt="Bánh mì B'my recién hecho" loading="eager" fetchpriority="high" />
+          <div class="cap">Fresh · 15.05.2026</div>
+        </div>
         <div class="hero-lead-form">
           <span class="form-badge">🎁 <span data-i18n="lead.badge">¡Bánh mì GRATIS!</span></span>
           <h3 data-i18n="lead.h3">Regístrate y llévate tu primer bánh mì gratis</h3>
           <div class="form-sub" data-i18n="lead.sub">Solo 100 vouchers disponibles — ¡no te quedes sin el tuyo!</div>
-          <form id="leadForm" novalidate>
+          <form id="leadForm" data-variant="2field" novalidate>
             <div class="lead-row">
               <label for="leadName" data-i18n="lead.name">Tu nombre</label>
               <input id="leadName" name="name" type="text" placeholder="María García" required />
@@ -632,9 +871,9 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
               <label for="leadPhone" data-i18n="lead.phone">WhatsApp / Teléfono</label>
               <input id="leadPhone" name="phone" type="tel" placeholder="+34 604 110 755" required />
             </div>
-            <div class="lead-row">
+            <div class="lead-row row-email">
               <label for="leadEmail" data-i18n="lead.email">Email</label>
-              <input id="leadEmail" name="email" type="email" placeholder="maria@ejemplo.com" required />
+              <input id="leadEmail" name="email" type="email" placeholder="maria@ejemplo.com" />
             </div>
             <div class="lead-row lead-consent">
               <label class="consent-label">
@@ -715,7 +954,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
             <img src="assets/photos/banhmi-hero.jpg" alt="Bánh mì vietnamita — B'my" />
           </div>
           <div class="story-photo-accent">
-            <img src="assets/photos/banhmi-hero2.jpg" alt="Bánh mì Việt Nam — B'my" />
+            <img src="https://images.pexels.com/photos/35409563/pexels-photo-35409563.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bánh mì Việt Nam — B'my" />
           </div>
           <div class="story-mascot-float">
             <img src="assets/mascot-coffee.png" alt="B'my mascot — cà phê" />
@@ -725,7 +964,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
       <div class="story-text fade-up delay-1">
         <span class="eyebrow" data-i18n="story.eyebrow">La historia</span>
         <h2 data-i18n="story.h2">Un pan que tiene algo que contar.</h2>
-        <p data-i18n="story.p1">Madrid, 2025. Dos vietnamitas. Una pregunta que no podían ignorar: <strong>¿por qué la cocina vietnamita —una de las más ricas del mundo— todavía no tiene una cara reconocible en Europa?</strong></p>
+        <p data-i18n="story.p1">Madrid, 2024. Dos vietnamitas. Una pregunta que no podían ignorar: <strong>¿por qué la cocina vietnamita —una de las más ricas del mundo— todavía no tiene una cara reconocible en Europa?</strong></p>
         <p data-i18n="story.p3">El bánh mì es el punto de encuentro perfecto entre dos culturas. Crujiente por fuera, suave por dentro. Intenso pero fresco. Rápido pero completo. Es la filosofía vietnamita convertida en bocado: adaptarse a cualquier lugar sin perder lo que eres.</p>
         <div class="story-signoff">
           <span class="sig">Tony &amp; Danny</span>
@@ -783,7 +1022,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
     </div>
     <div class="menu-foot" data-i18n="menu.foot">— Carta provisional. Precios y platos definitivos a partir del 15 de mayo —</div>
     <div style="text-align:center;margin-top:20px">
-      <a href="https://www.bmy.com.es/menu.html" target="_blank" style="color:var(--blue);font-weight:700;font-size:1rem;text-decoration:underline;text-underline-offset:4px" data-es="Ver carta completa en bmy.com.es →" data-en="See full menu at bmy.com.es →" data-vi="Xem thực đơn đầy đủ tại bmy.com.es →">Ver carta completa en bmy.com.es →</a>
+      <a href="https://www.bmy.life/menu.html" target="_blank" style="color:var(--blue);font-weight:700;font-size:1rem;text-decoration:underline;text-underline-offset:4px" data-es="Ver carta completa en bmy.life →" data-en="See full menu at bmy.life →" data-vi="Xem thực đơn đầy đủ tại bmy.life →">Ver carta completa en bmy.life →</a>
     </div>
   </div>
 </section>
@@ -801,7 +1040,7 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
           <div>
             <div class="label" data-i18n="visit.addrL">Dirección</div>
-            <div class="value"><strong>B'my Chamberí</strong><br>C/ de Fernández de los Ríos, 106, 28015 Madrid</div>
+            <div class="value"><strong>B'my Moncloa</strong><br>C/ Preguntoiro 29, 28008 Madrid</div>
           </div>
         </div>
         <div class="info-item">
@@ -861,7 +1100,50 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
 <section class="map-section">
   <div class="map-wrap">
     <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-      src="https://www.google.com/maps?q=Calle+de+Fernandez+de+los+Rios+106,+Chamberi,+28015+Madrid&output=embed"></iframe>
+      src="https://www.google.com/maps?q=Calle+Preguntoiro+29,+28008+Madrid&output=embed"></iframe>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM FEED ============ -->
+<section class="ig-section" id="instagram">
+  <div class="container">
+    <div class="ig-head fade-up">
+      <span class="eyebrow" data-i18n="ig.eyebrow">Detrás del mostrador</span>
+      <h2 data-i18n="ig.h2">Síguenos en Instagram.</h2>
+      <p data-i18n="ig.p">Preparativos, recetas, día a día del equipo. Todo lo que pasa antes del 15 de mayo.</p>
+      <a class="btn ig-cta" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener">
+        <span>@bmy.madrid</span> <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="ig-grid">
+      <a class="ig-cell fade-up" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/banhmi-hero.jpg" alt="Bánh mì B'my" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+      <a class="ig-cell fade-up delay-1" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/banhmi-closeup.jpg" alt="Bánh mì close-up" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+      <a class="ig-cell fade-up delay-2" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/bmy-combo.jpg" alt="B'my combo" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+      <a class="ig-cell fade-up" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/banhmi-wood.jpg" alt="Bánh mì tradicional" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+      <a class="ig-cell fade-up delay-1" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/caphe-watercolor.jpg" alt="Cà phê" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+      <a class="ig-cell fade-up delay-2" href="https://www.instagram.com/bmy.madrid" target="_blank" rel="noopener" aria-label="Ver en Instagram">
+        <img src="assets/photos/bmy-02.jpg" alt="B'my behind the scenes" loading="lazy" />
+        <span class="ig-icon" aria-hidden="true">📷</span>
+      </a>
+    </div>
+    <div class="ig-foot">
+      <span data-i18n="ig.foot">¿Quieres ver cómo se hace? Guarda las publicaciones, comenta y etiquétanos cuando vengas.</span>
+    </div>
   </div>
 </section>
 
@@ -892,8 +1174,8 @@ html.js-ready .fade-up.in{opacity:1;transform:none}
       <div class="footer-col">
         <h4 data-i18n="footer.col3">Encuéntranos</h4>
         <ul>
-          <li>C/ de Fernández de los Ríos, 106</li>
-          <li>Chamberí · 28015 Madrid</li>
+          <li>C/ Preguntoiro 29</li>
+          <li>28008 Madrid</li>
           <li>hola@bmy.es</li>
         </ul>
       </div>
@@ -921,7 +1203,7 @@ const I18N = {
     "taste.eyebrow":"Sabor auténtico","taste.h2":"Sabores que cuentan una historia.","taste.p":"Ingredientes frescos, recetas que viajaron desde Sài Gòn hasta tu mesa en Madrid.",
     "story.eyebrow":"La historia",
     "story.h2":"Un pan que tiene algo que contar.",
-    "story.p1":"Madrid, 2025. Dos vietnamitas. Una pregunta que no podían ignorar: <strong>¿por qué la cocina vietnamita —una de las más ricas del mundo— todavía no tiene una cara reconocible en Europa?</strong>",
+    "story.p1":"Madrid, 2024. Dos vietnamitas. Una pregunta que no podían ignorar: <strong>¿por qué la cocina vietnamita —una de las más ricas del mundo— todavía no tiene una cara reconocible en Europa?</strong>",
     "story.p2":"Tony llegó con más de diez años de experiencia en restauración en Vietnam. Danny llevaba una década viviendo en Madrid y conocía el paladar de esta ciudad. No abrieron ningún Excel. Solo pusieron una pregunta sobre la mesa.",
     "story.p3":"El bánh mì es el punto de encuentro perfecto entre dos culturas. Crujiente por fuera, suave por dentro. Intenso pero fresco. Rápido pero completo. Es la filosofía vietnamita convertida en bocado: adaptarse a cualquier lugar sin perder lo que eres.",
     "story.who":"Fundadores · Founders",
@@ -994,6 +1276,9 @@ const I18N = {
     "exp.org.t":"Organic Heritage","exp.org.p":"Cerámica artesanal, madera cálida y papel kraft. Elementos naturales que honran la tradición vietnamita.",
     "exp.urb.t":"Urban Eatery","exp.urb.p":"Rápido, social y energético. Un espacio donde el aroma del café y el crujir del pan marcan el ritmo.",
     "tagline.main":"\"Sabor real, esencia de Vietnam\"","tagline.sub":"Hương vị thật · Tinh hoa Việt Nam",
+    "ig.eyebrow":"Detrás del mostrador","ig.h2":"Síguenos en Instagram.",
+    "ig.p":"Preparativos, recetas, día a día del equipo. Todo lo que pasa antes del 15 de mayo.",
+    "ig.foot":"¿Quieres ver cómo se hace? Guarda las publicaciones, comenta y etiquétanos cuando vengas.",
   },
   en: {
     "nav.story":"Our story","nav.menu":"Menu","nav.visit":"Visit us","nav.contact":"Contact","nav.cta":"Free bánh mì",
@@ -1007,7 +1292,7 @@ const I18N = {
     "taste.eyebrow":"Authentic flavour","taste.h2":"Flavours that tell a story.","taste.p":"Fresh ingredients, recipes that travelled from Sài Gòn to your table in Madrid.",
     "story.eyebrow":"Our story",
     "story.h2":"A sandwich that has something to say.",
-    "story.p1":"Madrid, 2025. Two Vietnamese guys. <strong>One question they couldn't let go: why doesn't Vietnamese food — one of the richest cuisines in the world — have a real face in Europe yet?</strong>",
+    "story.p1":"Madrid, 2024. Two Vietnamese guys. <strong>One question they couldn't let go: why doesn't Vietnamese food — one of the richest cuisines in the world — have a real face in Europe yet?</strong>",
     "story.p2":"Tony arrived in Madrid carrying a decade of restaurant experience from Vietnam. Danny had already been here for ten years — he knew how Europeans eat, what makes them choose a place, what brings them back. They didn't open a business plan. They put one question on the table.",
     "story.p3":"Bánh mì sits at the crossroads of two cultures. Crispy outside, soft inside. Deep in flavour, bright and fresh. Quick to eat, but nothing is missing. It's the Vietnamese way of being in the world — belonging anywhere without losing who you are.",
     "story.who":"Founders · Fundadores",
@@ -1080,10 +1365,13 @@ const I18N = {
     "exp.org.t":"Organic Heritage","exp.org.p":"Handcrafted ceramics, warm wood and kraft paper. Natural elements honouring Vietnamese tradition.",
     "exp.urb.t":"Urban Eatery","exp.urb.p":"Fast, social and energetic. A space where the aroma of coffee and the crunch of bread set the rhythm.",
     "tagline.main":"\"Real flavour, essence of Vietnam\"","tagline.sub":"Hương vị thật · Tinh hoa Việt Nam",
+    "ig.eyebrow":"Behind the counter","ig.h2":"Follow us on Instagram.",
+    "ig.p":"Prep, recipes, team life. Everything happening before May 15th.",
+    "ig.foot":"Want to see how it's made? Save our posts, comment and tag us when you come.",
   },
   vi: {
     "nav.story":"Câu chuyện","nav.menu":"Thực đơn","nav.visit":"Ghé thăm","nav.contact":"Liên hệ","nav.cta":"Bánh mì miễn phí",
-    "hero.eyebrow":"Khai trương · 1 tháng 5 · 2026 · Madrid",
+    "hero.eyebrow":"Khai trương · 15 tháng 5 · 2026 · Madrid",
     "hero.h1a":"Bánh mỳ","hero.h1b":"Việt Nam","hero.h1c":"làm tại Madrid.",
     "hero.lead":"Công thức bánh mỳ Việt thật, được hai người bạn mang sang Moncloa. Vỏ giòn, cà phê đậm và một chút Việt Nam trong từng buổi sáng Madrid.",
     "hero.cta1":"Xem thực đơn","hero.cta2":"Câu chuyện của tụi mình",
@@ -1093,7 +1381,7 @@ const I18N = {
     "taste.eyebrow":"Hương vị đích thực","taste.h2":"Hương vị kể câu chuyện.","taste.p":"Nguyên liệu tươi, công thức truyền từ Sài Gòn đến bàn ăn của bạn tại Madrid.",
     "story.eyebrow":"Câu chuyện",
     "story.h2":"Một ổ bánh mỳ có điều muốn kể.",
-    "story.p1":"Madrid, 2025. Hai người Việt. <strong>Một câu hỏi không thể bỏ qua: tại sao ẩm thực Việt Nam — một trong những nền ẩm thực phong phú và tinh tế nhất thế giới — vẫn chưa có một gương mặt thực sự tại châu Âu?</strong>",
+    "story.p1":"Madrid, 2024. Hai người Việt. <strong>Một câu hỏi không thể bỏ qua: tại sao ẩm thực Việt Nam — một trong những nền ẩm thực phong phú và tinh tế nhất thế giới — vẫn chưa có một gương mặt thực sự tại châu Âu?</strong>",
     "story.p2":"Tony đến Madrid với hơn một thập kỷ kinh nghiệm F&amp;B từ Việt Nam. Danny đã sống ở đây mười năm, hiểu người châu Âu ăn như thế nào, chọn quán ra sao, điều gì khiến họ quay lại. Họ không mở một bản kế hoạch kinh doanh. Họ chỉ đặt một câu hỏi lên bàn.",
     "story.p3":"Bánh mỳ nằm ở giao điểm của hai nền văn hoá. Giòn ngoài, mềm trong. Đậm đà nhưng tươi mát. Nhanh gọn nhưng không thiếu thứ gì. Đó là cách người Việt tồn tại ở bất cứ đâu — thích nghi mà không đánh mất bản thân.",
     "story.who":"Nhà sáng lập · Founders",
@@ -1166,6 +1454,9 @@ const I18N = {
     "exp.org.t":"Organic Heritage","exp.org.p":"Gốm thủ công, gỗ ấm áp và giấy kraft. Những yếu tố tự nhiên tôn vinh truyền thống Việt.",
     "exp.urb.t":"Urban Eatery","exp.urb.p":"Nhanh, cộng đồng và tràn đầy năng lượng. Nơi hương cà phê và tiếng bánh giòn tan tạo nhịp sống.",
     "tagline.main":"\"Hương vị thật, tinh hoa Việt Nam\"","tagline.sub":"Sabor real · Esencia de Vietnam",
+    "ig.eyebrow":"Hậu trường","ig.h2":"Theo dõi tụi mình trên Instagram.",
+    "ig.p":"Chuẩn bị, công thức, đời sống team. Tất cả những gì đang diễn ra trước ngày 15/5.",
+    "ig.foot":"Muốn xem cách tụi mình làm? Lưu bài đăng, bình luận và tag B'my khi bạn ghé nhé.",
   }
 };
 
@@ -1200,7 +1491,7 @@ try{
 setLang(initialLang);
 
 /* ============ COUNTDOWN ============ */
-// Opening: 15 May 2026, 11:00 Madrid (CEST = UTC+2 in May)
+// Opening: 1 May 2026, 11:00 Madrid (CEST = UTC+2 in May)
 const TARGET = new Date('2026-05-15T11:00:00+02:00').getTime();
 function tick(){
   const now = Date.now();
@@ -1237,17 +1528,55 @@ document.querySelectorAll('.fade-up').forEach(el=>io.observe(el));
 // Failsafe: if anything still hidden after 1.2s, reveal it
 setTimeout(()=>{ document.querySelectorAll('.fade-up:not(.in)').forEach(el=>el.classList.add('in')); }, 1200);
 
+/* ============ A/B TEST: form variant (2field vs 3field) ============
+   Mặc định = 2field (khuyến nghị cho conversion).
+   Để force variant: thêm ?ab=2field hoặc ?ab=3field vào URL.
+   Để bật split 50/50 thật: đổi AB_SPLIT = true bên dưới. */
+(function(){
+  const AB_SPLIT = false; // ⇐ bật true khi muốn chạy 50/50 so sánh thật
+  const form = document.getElementById('leadForm');
+  if (!form) return;
+  const params = new URLSearchParams(window.location.search);
+  let variant = params.get('ab');
+  if (variant !== '2field' && variant !== '3field') {
+    try { variant = sessionStorage.getItem('bmy_ab_leadform') || null; } catch (_){ variant = null; }
+    if (!variant) {
+      variant = AB_SPLIT ? (Math.random() < 0.5 ? '2field' : '3field') : '2field';
+      try { sessionStorage.setItem('bmy_ab_leadform', variant); } catch(_){}
+    }
+  }
+  form.setAttribute('data-variant', variant);
+  // Nếu variant 3field, yêu cầu email required lại
+  const emailEl = form.querySelector('[name=email]');
+  if (emailEl) {
+    if (variant === '3field') emailEl.setAttribute('required', '');
+    else emailEl.removeAttribute('required');
+  }
+  if (typeof gtag === 'function') {
+    gtag('event', 'ab_exposure', {event_category:'ab_test', ab_name:'leadform_fields', ab_variant: variant});
+  }
+  if (typeof fbq === 'function') {
+    fbq('trackCustom', 'ABExposure', {test:'leadform_fields', variant: variant});
+  }
+})();
+
 /* ============ LEAD FORM HANDLER ============ */
 const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxmXvwfwtvl3OfXULnsdRZCMcYWY9nfBzaDD7AHNL35dlbfGj8S6Ar5eM1VRxX2KC-V/exec'; // Apps Script Web App v1 — B'My Lead Capture
 function handleLeadSubmit(e){
   e.preventDefault();
   const form = e.target;
   const btn = form.querySelector('button[type=submit]');
+  const variant = form.getAttribute('data-variant') || 'default';
   const name = form.querySelector('[name=name]').value.trim();
   const phone = form.querySelector('[name=phone]').value.trim();
-  const email = form.querySelector('[name=email]').value.trim();
+  const emailEl = form.querySelector('[name=email]');
+  const email = emailEl ? emailEl.value.trim() : '';
+  const emailRequired = emailEl && emailEl.hasAttribute('required');
   const consentEl = form.querySelector('[name=consent]');
-  if (!name || !phone || !email){ form.querySelector('[name=name]').focus(); return; }
+  if (!name || !phone || (emailRequired && !email)){
+    form.querySelector('[name=name]').focus();
+    return;
+  }
   if (consentEl && !consentEl.checked){
     consentEl.focus();
     consentEl.closest('.lead-consent')?.classList.add('error');
@@ -1259,6 +1588,7 @@ function handleLeadSubmit(e){
   // Send to Google Sheets (consent logged for GDPR audit trail)
   const data = new URLSearchParams({
     name, phone, email,
+    variant,
     consent: consentEl?.checked ? 'yes' : 'no',
     consent_ts: new Date().toISOString(),
     date: new Date().toISOString(),
@@ -1269,11 +1599,14 @@ function handleLeadSubmit(e){
     .then(()=>{
       document.getElementById('successModal').classList.add('show');
       form.reset();
-      // Track conversion for GA4 + Google Ads
+      // Track conversion for GA4 + Google Ads + Meta Pixel
       if (typeof gtag === 'function') {
-        gtag('event', 'generate_lead', {event_category: 'form', event_label: 'bmy_voucher', value: 1});
+        gtag('event', 'generate_lead', {event_category: 'form', event_label: 'bmy_voucher', value: 1, ab_variant: variant});
         // TODO: uncomment khi có Google Ads Conversion ID
         // gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXXX/YYYYYY'});
+      }
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead', {content_name:'bmy_voucher', ab_variant: variant});
       }
     })
     .catch(()=>{
